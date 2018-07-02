@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 <p align=center>
   <a href="https://github.com/Jasonandy/SpringBoot-X">
     <img src="http://upload-images.jianshu.io/upload_images/7802425-9eb1bcd006e34aa6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="SpringBoot-X" >
   </a>
 </p>
-=======
-![SpringBoot-X](http://upload-images.jianshu.io/upload_images/7802425-9eb1bcd006e34aa6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
->>>>>>> 16f8b61615c0cf70cd2d5a2afc85b5876e87e9c5
 
 <p align=center>
   You are what you want to be.
@@ -23,11 +19,6 @@
 * OfficialWebsite：http://boot.ucaner.cn
 * describe：SpringBoot整合一些常见的 aop poi mysql log 整合等等
 
-<<<<<<< HEAD
-=======
-# **一、**SpringBoot-X
-
->>>>>>> 16f8b61615c0cf70cd2d5a2afc85b5876e87e9c5
 ## 1、Spring Boot 简介
 
 SpringBoot是由Pivotal团队提供的全新框架，其设计目的是用来简化新Spring应用的初始搭建以及开发过程。
