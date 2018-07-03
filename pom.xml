@@ -41,7 +41,8 @@
 	<modules>
 		<module>springboot-elasticsearch</module>
 		<!-- <module>springboot-aggregation</module> -->
-  </modules>
+		<module>springboot-sourceanalysis</module>
+	</modules>
 	
 	<!-- 依赖 -->
 	<dependencies>

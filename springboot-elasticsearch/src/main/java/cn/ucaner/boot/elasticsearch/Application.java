@@ -11,9 +11,7 @@
 package cn.ucaner.boot.elasticsearch;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**     
 * @Package：cn.ucaner.boot.elasticsearch   
@@ -30,11 +28,11 @@ import org.springframework.context.annotation.Configuration;
  * @SpringBootApplication
  * 等价于@Configuration  @EnableAutoConfiguration @ComponentScan
  */
-//@SpringBootApplication
+@SpringBootApplication
 //@PropertySource({"classpath:application.properties"})
-@Configuration
-@EnableAutoConfiguration
-@ComponentScan
+//@Configuration
+//@EnableAutoConfiguration
+//@ComponentScan
 public class Application {
 	
 	// 程序启动入口

@@ -1,0 +1,41 @@
+#########################开发环境#############################
+server:
+  port: 8090
+  
+spring:
+  profiles: 
+    active: test
+  
+person:
+  #lastName: Jason
+  #last-Name: Andy
+  #last-name: loly
+  age: 23
+  boss: false
+  birth: 2018/07/03
+  maps: {k1: v1,k2: 12}
+  lists:
+      - lisi${random.uuid}
+      - zhaoliu
+  dog:
+    name: 小狗${random.uuid}
+    age: 12${person.age}
+    
+#lastNameValue: jasonandy@hotmail.com
+---
+#########################测试环境#############################
+server:
+  port: 8888
+spring:
+  profiles: test
+
+#debug: true #开启可以查看自动注入的配置类有多少 分别是谁
+  
+---
+#########################生产环境#############################
+server:
+  port: 9090
+spring:
+  profiles: prod
+
+  

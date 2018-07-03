@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<!-- SpringBoot父工程版本的管理 -->
+	<parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.9.RELEASE</version>
+    </parent>
+    
+  
+	<!-- 项目简述 -->
+	<groupId>cn.ucaner</groupId>
+	<artifactId>springboot-sourceanalysis</artifactId>
+	<version>1.1.1-SNAPSHOT</version>
+	<name>sourceanalysis</name>
+	<description>This is a SpringBoot SourceAnalysis </description>
+	
+	
+	<!--  项目依赖相关 -->
+	<dependencies>
+		<!--  web 项目相关依赖 -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
+		<!--导入配置文件处理器，配置文件进行绑定就会有提示-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
+		
+		<!-- 集成单元测试 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		
+	</dependencies>
+	
+	<!-- 构建相关 -->
+	<build>
+        <plugins>
+        	<!-- 将应用打包成一个可执行的jar包-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+	
+	
+</project>
